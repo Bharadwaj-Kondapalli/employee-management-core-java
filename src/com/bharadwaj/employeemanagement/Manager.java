@@ -16,6 +16,6 @@ public class Manager extends Employee {
 	
 	@Override
 	public String toString() {
-		return super.toString() + " " + teamSize + " " + getSalary();
+		return getId() +" " + getName() + " " + teamSize + " " + getSalary();
 	}
 }

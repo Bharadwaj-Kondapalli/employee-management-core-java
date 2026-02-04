@@ -16,7 +16,7 @@ public class Developer extends Employee {
 	
 	@Override
 	public String toString() {
-		return super.toString() + " " + techStack + " " + getSalary();
+		return getId() + " " + getName() + " " + techStack + " " + getSalary();
 	}
 
 }
